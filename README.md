@@ -12,7 +12,7 @@ I must commend Apple for baking UI scripting right into the fundamentals of thei
 
 Unfortunately, they found the most bewildering implementation to engage in this pursuit.
 
-To this end, I offer you [`await-ui-selector`](https://github.com/stephancasas/stephan-hates-osascript/applescript/await-ui-selector.applescript), which is designed to make short work of waiting for a UI element to be available, after which it can be made actionable via `System Events` or other functions available in the library.
+To this end, I offer you [`await-ui-selector`](https://github.com/stephancasas/stephan-hates-osascript/blob/main/applescript/await-ui-selector.applescript), which is designed to make short work of waiting for a UI element to be available, after which it can be made actionable via `System Events` or other functions available in the library.
 
 This is based loosely on the JavaScript function `document.querySelector()` — which allows for the retrieval of elements via standard CSS selectors. Of course, macOS doesn't use CSS selectors, but there are frequently-revisited `UI Element` reducers which are used during script authoring. Such reducers may include things like:
 
